@@ -132,3 +132,36 @@ nav {
     text-transform: uppercase;
     color: var(--cosmic-latte);
 }
+
+/* Navigation Media Query */
+
+@media screen and (min-width: 700px) {
+
+    header {
+        height: 8rem;
+    }
+
+    .nav-brand {
+        width: 3.5rem;
+    }
+
+    .nav-list {
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        position: initial;
+        top: initial;
+        right: initial;
+        flex-direction: row;
+        transition: initial;
+    }
+
+    .menu-icons {
+        display: none;
+    }
+
+    .nav-link {
+        color
+    }
+
+
